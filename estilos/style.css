@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color:white;
   }
   
   #fondoentero{
@@ -102,4 +103,40 @@ padding-top:2%;
 
 .imagenes ul li p {
     padding: 10px;
+}
+
+.peopleComments {
+    display:inline-block;
+}
+.peopleComments li {
+    width: 33%;
+    display:inline-block;
+    text-align: center;
+    padding: 10px;
+}
+.peopleComments li img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.formulario{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer {
+    border-top:1px solid white;
+    margin-top:32px;
+    padding: 32px;
+    font-size: 20px;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer p {
+    margin-top:15px;
 }
