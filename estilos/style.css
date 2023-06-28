@@ -5,15 +5,11 @@
     padding: 0;
     color:white;
   }
-  
-  #fondoentero{
-    background-color:#465631;
-}
 
 #logo{  
     background-image: url("../imagenes/logo_footer.jpg");
     width:20rem;
-    height:6rem;
+    height: 100px;
     background-position: left;
     background-repeat: no-repeat;
     float: left;
@@ -25,12 +21,12 @@ aside p,a {
     
 }
 
-aside {
+.probaelrefugio {
     display: inline-block;
     background-color: white;
-    opacity: 0.5;
+    background-color: rgba(131, 131, 131, 0.8);
     width: 100%;
-    height: 5%;
+    height: 50px;
     text-align: center;
 }
 
@@ -38,7 +34,19 @@ header {
     text-align: right;
     width:100%;
     height: 20%;
+    position:absolute;
+    top:0px;
+    left:0;
+    width: 100%;
   }
+nav {
+    background-color: grey;
+    height: 100px;
+
+}
+nav ul {
+    background-color: grey;
+}
 
 nav li {
     margin: 35px;
@@ -52,9 +60,11 @@ color: white;
 padding-top:2%;
 }
 
-#fondoEntero{
+.fondoentero{
     background-color:#465631;
     background-size: cover;
+    margin: 0px 100px;
+    margin-top: 50px;
 }
 #primer_sector {
     background-image: url("../imagenes/fondo_seccion_uno.jpg");
@@ -70,11 +80,12 @@ padding-top:2%;
     font-family: 'Roboto', sans-serif;
     font-weight: 150;
     text-shadow: 2px 2px 2px black;
-
 }
 
-#inky_texto h2{
-    padding-top:5em;
+#inky_texto {
+    padding-top:350px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .imagenes ul {
@@ -139,4 +150,24 @@ footer li {
 
 footer p {
     margin-top:15px;
+}
+
+.nosotros {
+    background-image:url("../imagenes/montaniaylago.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: fit-content;
+    height: 100vh;
+}
+
+.nosotrosInfo {
+    padding:100px;
+    display: inline-block;
+    text-align: center;
+    padding-top:350px;
+}
+.nosotrosFooter {
+    background-color: burlywood;
+    margin-top:0px;
 }
