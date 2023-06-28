@@ -76,13 +76,30 @@ padding-top:2%;
     padding-top:5em;
 }
 
-#imagenes ul, li {
-    display:inline-block;
+.imagenes ul {
+    margin: 20px 0;
 }
 
+.imagenes ul li {
+    display:inline-block;
+    width: 33%;
+    height: 100%;
+    vertical-align: text-top;
+    padding: 0 15px;
+    color: white;
+    text-align: center;
+}
 
+.imagenes ul li:not(:last-child) {
+    border-right: 1px solid white;
+}
 
+.imagenes ul li img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
 
-
-
-
+.imagenes ul li p {
+    padding: 10px;
+}
