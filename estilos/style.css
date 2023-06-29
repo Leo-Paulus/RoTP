@@ -61,10 +61,13 @@ padding-top:2%;
 }
 
 .fondoentero{
-    background-color:#465631;
     background-size: cover;
     margin: 0px 100px;
     margin-top: 50px;
+}
+
+.fondoverde{
+    background-color: #465631;
 }
 #primer_sector {
     background-image: url("../imagenes/fondo_seccion_uno.jpg");
@@ -170,4 +173,60 @@ footer p {
 .nosotrosFooter {
     background-color: burlywood;
     margin-top:0px;
+}
+
+.footerProteccionTermica {
+    background-color: rgb(1, 4, 196);
+    margin-top:0px;
+}
+
+
+.carpasyrefugios {
+    background-image:url("../imagenes/inky_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.carpasyrefugios h1 {
+    text-align: center;
+    padding-top: 49vh;
+    font-size:4em;
+}
+
+.protecciontermica {
+    background-image:url("../imagenes/inky_11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.protecciontermica h1 {
+    text-align: center;
+    padding-top: 49vh;
+    font-size:4em;
+}
+
+.productoscolorprotecciontermica{
+    background-color: rgb(23, 105, 229);
+}
+
+.productoscolor{
+    background-color: #465631;
+}
+.productos li {
+    display: inline-block;
+    width: 33%;
+}
+.productos li p {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.productos li img {
+    object-fit: cover;
+    width: 100%;
 }
